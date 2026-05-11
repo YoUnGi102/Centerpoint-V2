@@ -15,3 +15,24 @@ venv/
 *.bin
 output
 version.py
+
+# Datasets and Symlinks
+data/
+datasets/
+
+# Weights and Logs
+output/
+work_dirs/
+*.pth
+*.pt
+*.log
+
+# Compiled C++ Binaries (These must be re-compiled on the cluster!)
+build/
+*.so
+pcdet/ops/**/*.so
+
+# Python Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

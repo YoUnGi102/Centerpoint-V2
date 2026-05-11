@@ -15,4 +15,5 @@ __all__ = {
     'DynPillarVFE': DynamicPillarVFE,
     'DynamicPillarVFESimple2D': DynamicPillarVFESimple2D,
     'DynamicVoxelVFE': DynamicVoxelVFE,
+    'FastPillarFeatureNet': FastPillarFeatureNet,
 }
